@@ -1,15 +1,11 @@
-# aws-automation-nginx-script
+AWS EC2 Nginx Automation Script
 
-# AWS EC2 Nginx Automation Script
-
-## 📌 Overview
+Overview
 This project automates the installation and setup of an Nginx web server on an AWS EC2 instance using a Bash script.
 
 Instead of manually installing and configuring Nginx, a single script handles the entire setup process.
 
----
-
-## 🚀 What This Project Does
+ What This Project Does
 
 - Updates system packages
 - Installs Nginx web server
@@ -17,19 +13,15 @@ Instead of manually installing and configuring Nginx, a single script handles th
 - Automatically deploys a custom HTML webpage
 - Confirms successful deployment
 
----
 
-## 🛠️ Technologies Used
+Technologies Used
 
 - AWS EC2 (Ubuntu Linux)
 - Nginx Web Server
 - Bash Scripting
 - Linux systemctl
 
----
-
-
-▶️ How to Run
+How to Run
 1. SSH into EC2 instance
 ssh -i project1.pem ubuntu@<your-ec2-ip>
 2. Create the script file
@@ -44,7 +36,8 @@ ENTER
 chmod +x setup-nginx.sh
 5. Run the script
 ./setup-nginx.sh
-🌐 Result
+
+Result
 
 After running the script, the website will be accessible at:
 
@@ -54,7 +47,7 @@ It will display:
 
 My Automated Nginx Server
 
-## 📜 Script Overview
+Script Overview
 
 The automation script performs the following steps:
 

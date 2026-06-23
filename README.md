@@ -59,7 +59,3 @@ echo "<h1>My Automated Nginx Server</h1>" | sudo tee /var/www/html/index.html
 
 sudo systemctl enable nginx
 sudo systemctl restart nginx
-
-
-
-

@@ -23,7 +23,7 @@ Technologies Used
 
 How to Run
 1. SSH into EC2 instance
-ssh -i <your-key.pem> ubuntu@<EC2-PUBLIC-IP>
+ssh -i your-key.pem ubuntu@EC2_PUBLIC_IP
 2. Create the script file
 nano setup-nginx.sh
 3. Paste the script and save
@@ -41,7 +41,7 @@ Result
 
 After running the script, the website will be accessible at:
 
-http://<your-ec2-public-ip>
+http://EC2_PUBLIC_IP
 
 It will display:
 

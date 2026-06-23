@@ -23,7 +23,7 @@ Technologies Used
 
 How to Run
 1. SSH into EC2 instance
-ssh -i project1.pem ubuntu@<your-ec2-ip>
+ssh -i <your-key.pem> ubuntu@<EC2-PUBLIC-IP>
 2. Create the script file
 nano setup-nginx.sh
 3. Paste the script and save
